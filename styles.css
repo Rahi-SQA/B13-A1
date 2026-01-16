@@ -254,27 +254,32 @@ nav .menu li a{
 }
 
 .label {
-    font-size: 14px;
-    color: #3aa76d;
-    font-weight: bold;
-    letter-spacing: 1px;
+    font-size: 16px;
+    color: #30B868;
+    font-weight: 500;
+    letter-spacing: 0px;
 }
-
-
 .content h2 {
-    font-size: 40px;
+    font-size: 48px;
     margin: 16px 0;
-    line-height: 1.2;
+    font-weight: 700;
+    color: #001931;
+    line-height: 100%;
 }
 
 .description {
     font-size: 16px;
-    color: #5b6b7f;
+    color: #627382;
+    font-weight: 400;
     margin-bottom: 24px;
-    line-height: 1.6;
+    line-height: 20px;
 }
 .features {
     list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: medium;
+    color: #001931;
     padding: 0;
     margin-top: 24px;
 }
