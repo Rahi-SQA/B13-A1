@@ -60,8 +60,8 @@ nav .menu li a{
 
 /* Body Styles */
 .image {
-    height: 80px;
-    width:fit-content;
+    height: 100px;
+    width: fit-content;
 }
 * {
     margin: 0;
@@ -129,5 +129,104 @@ nav .menu li a{
     padding: 10px 20px 10px 20px;
     max-width: 800px;
     margin: 16px auto 0 auto;
+}
+.actions {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+    justify-content: center;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 52px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #ffffff;
+}
+.btn_primary {
+    background: #469165;
+    width: 251px;
+}
+.btn_secondary {
+    border: 1px solid #ffffff;
+    width: 198px;
+}
+.arrow {
+    font-size: 18px;
+}
+
+/* Section */
+.features {
+    padding: 200px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Title */
+.features-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #001931
+}
+
+/* Subtitle */
+.features-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+/* Cards Layout */
+.cards {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Individual Card */
+.card {
+    background:#f7fef9;
+    color: #0b2c4d;
+    width: 260px;
+    padding: 32px 24px;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+
+/* Icon */
+.icon {
+    width: 56px;
+    height: 56px;
+    background: #ff5a5a;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 24px;
+}
+
+/* Card Title */
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+/* Card Text */
+.card p {
+    font-size: 14px;
+    color: #6b7a90;
+    line-height: 1.5;
 }
 /* Footer Styles */
