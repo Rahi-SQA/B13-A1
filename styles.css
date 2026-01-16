@@ -229,4 +229,76 @@ nav .menu li a{
     color: #6b7a90;
     line-height: 1.5;
 }
+/* Section */
+.solution {
+    padding: 80px 40px;
+}
+
+/* Layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+/* Image */
+.image-box {
+    width: 600px;
+}
+
+/* Content */
+.content {
+    max-width: 520px;
+}
+
+.label {
+    font-size: 14px;
+    color: #3aa76d;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Heading */
+.content h2 {
+    font-size: 40px;
+    margin: 16px 0;
+    line-height: 1.2;
+}
+
+/* Description */
+.description {
+    font-size: 16px;
+    color: #5b6b7f;
+    margin-bottom: 24px;
+    line-height: 1.6;
+}
+
+/* List */
+.features {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+}
+
+.features .check-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+.features li {
+    font-size: 15px;
+    margin-bottom: 14px;
+    padding-left: 0;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
 /* Footer Styles */
