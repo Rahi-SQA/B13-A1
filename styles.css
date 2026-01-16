@@ -301,8 +301,10 @@ nav .menu li a{
     background-color: #001931;
     padding: 40px 120px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 40px;
 }
 .footer-logo {
     color: #ffffff;
@@ -323,7 +325,15 @@ nav .menu li a{
     text-align: center;
     color: #ffffff;
     font-size: 14px;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-bottom p {
+    margin: 0;
+    white-space: nowrap;
 }
 
 /* Footer Styles */
