@@ -161,14 +161,18 @@ nav .menu li a{
     font-size: 18px;
 }
 
-/* Section */
-.features {
-    padding: 200px;
+.features1 {
+    display: flex;
+    flex-direction: column;
+    padding: 200px 120px 100px 120px;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     color: #fff;
+    width: 100%;
 }
 
-/* Title */
+
 .features-title {
     font-size: 48px;
     font-weight: bold;
@@ -176,7 +180,7 @@ nav .menu li a{
     color: #001931
 }
 
-/* Subtitle */
+
 .features-subtitle {
     font-size: 16px;
     font-weight: 400;
@@ -184,7 +188,7 @@ nav .menu li a{
     margin-bottom: 44px;
 }
 
-/* Cards Layout */
+
 .cards {
     display: flex;
     gap: 24px;
@@ -192,7 +196,7 @@ nav .menu li a{
     flex-wrap: wrap;
 }
 
-/* Individual Card */
+
 .card {
     background:#f7fef9;
     color: #0b2c4d;
@@ -203,7 +207,7 @@ nav .menu li a{
     
 }
 
-/* Icon */
+
 .icon {
     width: 56px;
     height: 56px;
@@ -217,24 +221,20 @@ nav .menu li a{
     font-size: 24px;
 }
 
-/* Card Title */
+
 .card h3 {
     font-size: 20px;
     margin-bottom: 12px;
 }
 
-/* Card Text */
 .card p {
     font-size: 14px;
     color: #6b7a90;
     line-height: 1.5;
 }
-/* Section */
 .solution {
     padding: 80px 40px;
 }
-
-/* Layout */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -243,12 +243,12 @@ nav .menu li a{
     gap: 60px;
 }
 
-/* Image */
+
 .image-box {
     width: 600px;
 }
 
-/* Content */
+
 .content {
     max-width: 520px;
 }
@@ -260,45 +260,36 @@ nav .menu li a{
     letter-spacing: 1px;
 }
 
-/* Heading */
+
 .content h2 {
     font-size: 40px;
     margin: 16px 0;
     line-height: 1.2;
 }
 
-/* Description */
 .description {
     font-size: 16px;
     color: #5b6b7f;
     margin-bottom: 24px;
     line-height: 1.6;
 }
-
-/* List */
 .features {
     list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    text-align: left;
-}
-
-.features .check-icon {
-    width: 20px;
-    height: 20px;
-    margin-right: 12px;
-    vertical-align: middle;
+    padding: 0;
+    margin-top: 24px;
 }
 
 .features li {
-    font-size: 15px;
-    margin-bottom: 14px;
-    padding-left: 0;
-    position: relative;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 12px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    color: #0b2c4d;
+    line-height: 1.5;
+}.features li img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
 }
-
 /* Footer Styles */
